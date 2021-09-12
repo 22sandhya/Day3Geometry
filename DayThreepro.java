@@ -23,8 +23,11 @@ public class DayThreepro {
 		System.out.println("length is:" + len2);
 		if (len1 == len2) {
 			System.out.println("len1s are equal");
+		} else if (len1 > len2) {
+			System.out.println("len1 is grater ");
 		} else {
-			System.out.println("both lines are not equal");
+			System.out.println("len1 is smaller than len2");
+
 		}
 	}
 
